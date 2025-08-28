@@ -78,8 +78,7 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAAEgAAAAAAAAAAAAAAGgAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-08-27T20:57:16.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T20:57:16.624Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "Controllers\\ClaimsController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T21:12:42.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T21:12:42.564Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "Controllers\\CarsController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T20:51:57.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T20:51:57.048Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "Services\\CarService.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAAAGcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T20:50:48.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T20:50:48.123Z"
             },
             {
               "$type": "Document",
@@ -130,8 +126,7 @@
               "RelativeToolTip": "Models\\InsurancePolicy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T19:57:04.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T19:57:04.514Z"
             },
             {
               "$type": "Document",
@@ -143,8 +138,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T19:57:40.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T19:57:40.793Z"
             },
             {
               "$type": "Document",
@@ -156,8 +150,7 @@
               "RelativeToolTip": "Dtos\\Dtos.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T21:07:52.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T21:07:52.45Z"
             },
             {
               "$type": "Document",
@@ -169,8 +162,7 @@
               "RelativeToolTip": "Models\\Car.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T20:56:11.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T20:56:11.245Z"
             },
             {
               "$type": "Document",
@@ -182,8 +174,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T21:14:05.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T21:14:05.669Z"
             },
             {
               "$type": "Document",
@@ -195,8 +186,7 @@
               "RelativeToolTip": "Services\\PolicyExpiryJob.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T09:07:16.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T09:07:16.622Z"
             },
             {
               "$type": "Document",
@@ -206,7 +196,7 @@
               "RelativeDocumentMoniker": "CarsController.http",
               "ToolTip": "D:\\CarInsurance.Api\\CarsController.http",
               "RelativeToolTip": "CarsController.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2025-08-27T21:15:26.926Z",
               "EditorCaption": ""
@@ -221,8 +211,7 @@
               "RelativeToolTip": "Services\\ClaimService.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAADIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T21:09:37.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T21:09:37.069Z"
             },
             {
               "$type": "Document",
@@ -234,8 +223,7 @@
               "RelativeToolTip": "Models\\InsuranceClaim.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T21:01:33.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T21:01:33.494Z"
             },
             {
               "$type": "Document",

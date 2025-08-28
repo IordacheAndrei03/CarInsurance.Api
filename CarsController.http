@@ -1,9 +1,4 @@
-﻿@host = https://localhost:61341
-@existingCarId = 1        # ↩️ pune aici un carId care există la tine
-@missingCarId = 999  # sigur nu există
-
-
-### Get all cars
+﻿### Get all cars
 GET https://localhost:61341/api/cars
 Accept: application/json
 
