@@ -1,0 +1,97 @@
+﻿@host = https://localhost:61341
+@existingCarId = 1        # ↩️ pune aici un carId care există la tine
+@missingCarId = 999  # sigur nu există
+
+
+### Get all cars
+GET https://localhost:61341/api/cars
+Accept: application/json
+
+### Check insurance validity for a car (example: carId=1, date=2024-06-01)
+GET https://localhost:61341/api/cars/1/insurance-valid?date=2024-02-28
+Accept: application/json
+
+### Create an insurance claim for carId
+POST https://localhost:61341/api/cars/1/claims
+Content-Type: application/json
+Accept: application/json
+{
+  "claimDate": "2025-08-01",
+  "description": "Are capota lovita facuta praf",
+  "amount": 1234.56
+}
+### Get all claims for a carId
+GET https://localhost:61341/api/cars/1/claims
+Accept: application/json
+
+### Get history for a car (carId=2)
+GET https://localhost:61341/api/cars/1/history
+Accept: application/json
+
+### Create car (first time -> 201)
+POST https://localhost:61341/api/cars
+Content-Type: application/json
+Accept: application/json
+
+{
+  "vin": "TESTVIN123456789",
+  "make": "Dacia",
+  "model": "Logan",
+  "yearOfManufacture": 2020,
+  "ownerId": 1
+}
+
+
+
+### 200 OK – format corect (nu garantăm true/false, doar că e 200)
+GET https://localhost:61341/api/cars/1/insurance-valid?date=2025-08-01
+Accept: application/json
+
+### 404 Not Found – mașină inexistentă (dar dată validă)
+GET https://localhost:61341/api/cars/999/insurance-valid?date=2025-08-01
+Accept: application/json
+
+### 400 Bad Request – format greșit (slash-uri)
+GET https://localhost:61341/api/cars/1/insurance-valid?date=2025/08/01
+Accept: application/json
+
+### 400 Bad Request – lipsesc zerourile (nu e yyyy-MM-dd strict)
+GET https://localhost:61341/api/cars/1/insurance-valid?date=2025-8-1
+Accept: application/json
+
+### 400 Bad Request – dată imposibilă (zi invalidă)
+GET https://localhost:61341/api/cars/2/insurance-valid?date=2025-02-30
+Accept: application/json
+
+### 400 Bad Request – 29 feb într-un an non-bisect
+GET https://localhost:61341/api/cars/2/insurance-valid?date=2023-02-29
+Accept: application/json
+
+### 200 OK – 29 feb într-un an bisect (format valid)
+GET https://localhost:61341/api/cars/2/insurance-valid?date=2024-02-29
+Accept: application/json
+
+### 400 Bad Request – parametru lipsă (deloc)
+GET https://localhost:61341/api/cars/1/insurance-valid
+Accept: application/json
+
+### 400 Bad Request – parametru gol
+GET https://localhost:61341/api/cars/1/insurance-valid?date=
+Accept: application/json
+
+### 400 Bad Request – spații în jur (nu e permis cu DateTimeStyles.None)
+GET https://localhost:61341/api/cars/2/insurance-valid?date=%202025-08-01%20
+Accept: application/json
+
+### 400 Bad Request – lună invalidă
+GET https://localhost:61341/api/cars/1/insurance-valid?date=2025-13-01
+Accept: application/json
+
+### 400 Bad Request – zi zero
+GET https://localhost:61341/api/cars/1/insurance-valid?date=2025-01-00
+Accept: application/json
+
+### 400 Bad Request – are timp atașat (nu e strict yyyy-MM-dd)
+GET https://localhost:61341/api/cars/2/insurance-valid?date=2025-08-01T00:00:00
+Accept: application/json
+
